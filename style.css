@@ -1,0 +1,433 @@
+body{
+
+    margin:0;
+    padding:0;
+    background-color: gainsboro;
+}
+.logo{
+    cursor:pointer;
+}
+.navbar{
+
+    display:flex;
+    align-items: right;
+    padding:25px;
+} 
+
+nav{
+    flex:1;
+    text-align: right
+    
+
+}
+nav ul{
+
+    display: inline-block;
+    list-style-type:none;
+    align-items: center;
+    text-align: center;
+   
+}
+
+nav ul li{
+     display:inline-block;
+     margin-right: 20px;
+     padding:10px;
+     text-align: center;
+     
+   
+    
+}
+a{
+
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-family: sans-serif;
+   font-size: 15px;
+  
+   
+}
+a:hover{
+    color:white;
+    transition: 0.5s;
+}
+.main{
+    margin:auto;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
+}
+.col-2 img{
+    max-width: 100%;
+    padding:60px 0;
+    cursor: pointer;
+}
+    
+.col-1 h1{
+    font-size: 40px;
+    line-height: 40px;
+    margin:25px 0;
+    font-weight: bold;
+}
+.col-1 p{
+font-size: 15px;
+font-weight: bold;
+
+
+}
+.button{
+    cursor: pointer;
+    background-color: red;
+    color:wheat;
+    border-radius: 30px;
+  
+    padding:10px 10px;
+}
+.button:hover{
+    background:black;
+    transition: 1s;
+}
+
+.head{
+    background:#FFC371;
+}
+.variety{
+margin:60px 0;
+
+
+}
+.col-1{
+    min-width: 230px;
+    margin-bottom: 30px;
+    flex-basis: 30%;
+}
+.col-1 img {
+    width: 100%;
+    padding: 20px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.col-1 img:hover {
+    transform: scale(1.1);
+}
+
+.step{
+    max-width: 900px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+  
+}
+.step h2{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: 4px underline;
+
+}
+
+.col-1{
+    flex-basis: 25%;
+    padding:10px;
+    min-width: 230px;
+    margin-bottom: 40px;
+
+}
+.col-1 img{
+    width:100%
+}
+.fotter{
+    padding:200px;
+    background-color:black;
+   
+    
+}
+.fotter p{
+    color:white;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+}
+.fotter  ul  li a{
+
+    font-weight: bold;
+    font-size: 15px;
+    color:white;
+    cursor:pointer;
+    display: inline-block;
+    text-align: center;
+}
+.fotter li{
+    display: inline-block;
+    text-align: center;
+    padding:10px 10px;
+
+}
+.fotter a{
+    text-align: center;
+}
+
+.fotter li{
+    text-align: center;
+}
+.fotter li a{
+    text-align: center;
+    margin-left: 70px 70px;
+}
+.fotter li:hover {
+   background-color: red; 
+    cursor: pointer;
+    border-radius: 10px;
+
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-bottom: 20px 10px;
+}
+
+.container {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background: burlywood;
+}
+
+
+
+
+
+#watchNow {
+    padding: 5px 5px;  
+           
+    font-size: 18px;                   
+    font-weight: bold;                 
+    background-color: #4CAF50;         
+    color: white;                      
+    border: none;                     
+    border-radius: 8px;                
+    cursor: pointer;                   
+    transition: background-color 0.3s, transform 0.3s;  
+}
+
+#watchNow:hover {
+    background-color: #45a049;         
+    transform: scale(1.05);            
+}
+
+
+
+
+
+
+
+
+
+
+
+.admin-login {
+    background-color:burlywood;
+    width: 400px;
+    padding: 30px;
+    margin: 100px auto;
+    border-radius: 16px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border: 1px solid #e0e0e0;
+   
+    
+  }
+
+
+  .admin-login button{
+margin-left: 100px;
+
+
+  }
+
+  .button{
+      border-radius: 18px;
+  }
+  .admin-login input{
+   margin-left: -18px;
+   padding: 20px 10px;
+   
+  
+}
+
+
+
+  
+  .admin-login h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .admin-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .admin-login input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
+  }
+  
+  .admin-login input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .admin-login button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .admin-login button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .admin-login button:active {
+    transform: translateY(0);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  .footer4 {
+    padding: 20px;
+    background-color:whitesmoke;
+   
+  }
+  
+  .admin-login, .admin-panel {
+    margin: 10px;
+  }
+  
+  .admin-panel {
+    display: none;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .btn {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+   .admin-login {
+
+    margin-left: 550px;
+  }
+
+
+
+  .footer5 {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-top: 3px solid #444;
+    font-family: Arial, sans-serif;
+}
+
+.footer5 a {
+    color: #4caf50;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer5 a:hover {
+    color: #ff9800;
+    text-decoration: underline;
+}
+
